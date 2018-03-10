@@ -228,6 +228,13 @@ class Playlist:
         else:
             self.playlist.append(url)
             self.save()
+    
+    def remove_song(self, author, url):
+        if not self.main_class._valid_playable_url(url):
+            raise InvalidURL
+        else:
+            self.playlist.remove(url)
+            self.save()
 
     def save(self):
         dataIO.save_json(self.path, self.to_json())
@@ -1595,6 +1602,25 @@ class Audio:
             server, name, local=self._playlist_exists_local(server, name))
         try:
             playlist.append_song(author, url)
+        except UnauthorizedSave:
+            await self.bot.say("You're not the author of that playlist.")
+        except InvalidURL:
+            await self.bot.say("Invalid link.")
+        else:
+            await self.bot.say("Done.")
+
+    @playlist.command(pass_context=True, no_pm=True, name="delete")
+    async def playlist_delete(self, ctx, name, url):
+        """Removes from a playlist."""
+        author = ctx.message.author
+        server = ctx.message.server
+        if name not in self._list_playlists(server):
+            await self.bot.say("There is no playlist with that name.")
+            return
+        playlist = self._load_playlist(
+            server, name, local=self._playlist_exists_local(server, name))
+        try:
+            playlist.remove_song(author, url)
         except UnauthorizedSave:
             await self.bot.say("You're not the author of that playlist.")
         except InvalidURL:
