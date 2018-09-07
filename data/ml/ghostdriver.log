@@ -1,0 +1,109 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2018-07-22T18:33:54.593Z] GhostDriver - Main - running on port 56727
+[INFO  - 2018-07-22T18:33:55.479Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2018-07-22T18:33:55.479Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.customHeaders:  - {}
+[INFO  - 2018-07-22T18:33:55.480Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-22T18:33:55.480Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ca37e630-8ddd-11e8-a0e4-3babb9feef2c
+[ERROR - 2018-07-22T18:33:57.147Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:33:57.147Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/qQ5hBSaLupI:12)
+[ERROR - 2018-07-22T18:33:58.228Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284438181
+[ERROR - 2018-07-22T18:34:15.260Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:34:15.260Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/TVGNWo5rY5c:12)
+[ERROR - 2018-07-22T18:34:15.753Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284455704
+[ERROR - 2018-07-22T18:34:27.292Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:34:27.292Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/qhwDBOv3dFY:12)
+[ERROR - 2018-07-22T18:34:28.176Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284468116
+[ERROR - 2018-07-22T18:34:38.385Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:34:38.385Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/g9e0e9BITkI:12)
+[ERROR - 2018-07-22T18:34:38.404Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: ReferenceError: Can't find variable: skillList
+[ERROR - 2018-07-22T18:34:38.404Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  (anonymous function) (https://www.mobilelegends.com/hero/detail-4:1066)
+  (anonymous function) (https://www.mobilelegends.com/js/devall.js?v=1518073386000:2)
+  (anonymous function) (https://www.mobilelegends.com/js/devall.js?v=1518073386000:2)
+  (anonymous function) (https://www.mobilelegends.com/js/devall.js?v=1518073386000:2)
+  a (https://www.mobilelegends.com/js/devall.js?v=1518073386000:1)
+[ERROR - 2018-07-22T18:34:38.944Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284478899
+[ERROR - 2018-07-22T18:34:40.549Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:34:40.549Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/TLI7R_Vr1H8:12)
+[ERROR - 2018-07-22T18:34:41.425Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284481375
+[ERROR - 2018-07-22T18:34:49.891Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:34:49.891Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/hyUYynpyIZY:12)
+[ERROR - 2018-07-22T18:34:50.720Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284490662
+[ERROR - 2018-07-22T18:34:59.946Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:34:59.946Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/RDq6LCmxLGs:12)
+[ERROR - 2018-07-22T18:35:00.923Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284500874
+[ERROR - 2018-07-22T18:35:12.476Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:35:12.476Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/xm0PXLaRgRM:12)
+[ERROR - 2018-07-22T18:35:13.351Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284513310
+[ERROR - 2018-07-22T18:35:23.285Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:35:23.285Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/Wqx5S9sIwHY:12)
+[ERROR - 2018-07-22T18:35:24.073Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284524020
+[ERROR - 2018-07-22T18:35:32.686Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:35:32.686Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/MpFf8dU99W4:12)
+[ERROR - 2018-07-22T18:35:33.561Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284533516
+[ERROR - 2018-07-22T18:35:42.651Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:35:42.651Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/mcXt_6uUxr4:12)
+[ERROR - 2018-07-22T18:35:43.135Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284543086
+[ERROR - 2018-07-22T18:35:51.762Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.W.bind(a)')
+[ERROR - 2018-07-22T18:35:51.762Z] Session [ca37e630-8ddd-11e8-a0e4-3babb9feef2c] - page.onError - stack:
+  Yh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:561)
+  Xh (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:548)
+  li (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:579)
+  (anonymous function) (https://www.youtube.com/yts/jsbin/www-embed-player-vflLsze3i/www-embed-player.js:685)
+  (anonymous function) (https://www.youtube.com/embed/MtI-qglJ_l4:12)
+[ERROR - 2018-07-22T18:35:52.642Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1532284552585
